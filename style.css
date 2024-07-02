@@ -1,0 +1,277 @@
+.section {
+  height: auto;
+}
+
+/* .parent {
+  height: 50vh;
+  width: 45vh;
+} */
+.parent {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  gap: 50px;
+  height: auto;
+}
+.image {
+  width: 97%;
+  height: 100%;
+  object-fit: contain;
+}
+.AA {
+  width: auto;
+}
+.AB {
+  width: auto;
+}
+.AC {
+  font-size: xx-large;
+  font-weight: 200;
+}
+.AD {
+  font-size: large;
+  color: rgb(138, 124, 124);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.AE {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(68, 68, 179);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.AE:hover {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(255, 0, 0);
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@media (max-width: 834px) {
+  .parent {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .section {
+    height: auto;
+  }
+}
+/*  */
+/*  */
+.section2 {
+  height: auto;
+}
+.BA {
+  height: auto;
+  gap: 20px;
+  background-color: rgb(248, 247, 247);
+}
+.parent2 {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  gap: 10px;
+  padding-top: 30px;
+}
+.BB {
+  font-size: xx-large;
+  font-weight: 200;
+  object-fit: contain;
+}
+.BC {
+  font-size: large;
+  color: rgb(138, 124, 124);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: auto;
+}
+.BD {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(68, 68, 179);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.BD:hover {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.image2 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.BE {
+  width: auto;
+}
+@media (max-width: 834px) {
+  .parent2 {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+*/
+/*  */
+/*  */
+/*  */
+/* section3 STARTS HERE */
+.section3 {
+  height: auto;
+}
+.CA {
+  background-image: url(ocean.jpg);
+  object-fit: contain;
+  align-content: center;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+  gap: 20px;
+  background-size: cover;
+  text-align: center;
+ 
+}
+.CB {
+  justify-content: center;
+  color: white;
+  
+}
+.CC {
+  padding-bottom: 5vh;
+  justify-content: center;
+  font-weight: 400;
+  font-size: xx-large;
+}
+.CD {
+  justify-content: center;
+  width: auto;
+  padding-bottom: 10vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.CE {
+  width: 200px;
+  height: 50px;
+  background-color: rgb(68, 68, 179);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+ align-content: center;
+ margin-left: auto;margin-right: auto;
+}
+.CE:hover {
+  width: 200px;
+  height: 50px;
+  background-color: red;
+  color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;align-content: center;
+  margin-left: auto;margin-right: auto;
+ 
+}
+@media (max-width: 834px) {
+  .section3{flex-wrap: wrap; object-fit: contain;}
+
+
+}
+/* the parallax sectiion ends here. */
+/*  */
+/*  */
+.parent-div {
+  height: 60vh;
+  background-color: black;
+  text-align: center;
+  gap: 20px;
+  background-size: cover;
+  color: white;
+  padding-top: 5vh;
+}
+.parent-div div h1 {
+  font-weight: 500;
+  font-size: xx-large;
+}
+.parent-div div p {
+  font-size: medium;
+}
+.image-parent-div {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+}
+
+.image-parent-div div {
+  /* width: calc(100% / 4); */
+  height: 30vh;
+}
+
+.image-parent-div div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  text-align: center ;
+}
+@media (max-width: 834px) {
+  .image-parent-div {
+    grid-template-columns: repeat(1, 1fr);
+    flex-wrap: wrap;text-wrap: wrap;
+  }
+}
+/*  */
+/*  */
+/*  */
+.section4{
+  background-image: url(ocean.jpg);
+  object-fit: contain;
+  align-content: center;
+  background-repeat: no-repeat;
+  height: 70vh;
+  width: auto;
+  gap: 20px;
+  background-size: cover;
+  text-align: center;
+  margin-left: auto;margin-right: auto;
+}
+.FA{
+  height: auto;
+  align-content: center;
+  justify-content: center;
+  gap: 20px;width:50vh;
+  margin-left: auto;margin-right: auto;
+}
+.FB{font-weight: 400;font-style: oblique;}
+.FC{
+  font-size: larger;
+  width: 50vh;
+  margin-left: auto;margin-right: auto;
+}
+
+@media(max-width:834px){
+  .section4{flex-wrap: wrap;object-fit: contain ;}
+}
+
